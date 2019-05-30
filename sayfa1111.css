@@ -1,0 +1,212 @@
+body {
+	
+	
+}
+.kenar-menu {
+  
+  width:270px;												/*Menünün genişliği "260px verince sığmıyor" */
+  height:100%;												/*Menünün boy uzunluğu*/
+  position:absolute;											/*Menüyü sabitleme*/
+  top:0px;
+  left:0px;
+ 
+  
+}
+
+
+.kenar-menu ul {
+  list-style-type:none;										/*Listelerin noktalarını yok et*/
+  margin-top:50px;											/*Listelerin konumunu belirleme*/		
+  margin-left:15px;
+}
+
+
+.kenar-menu-logo {
+  text-align: center;										/*"Karakol kuruluş yeri" yazısının ortalanması*/
+  margin:15px; 												/*"Karakol kuruluş yeri" yazısının konumu*/
+}
+
+
+.kenar-menu-logo a {
+  font-weight:bold;											/*"Karakol kuruluş yeri" yazısının kalınlığı*/
+}
+
+
+.kenar-menu-yonetici {
+  padding:20px;												/*Yönetici paneli konumu*/
+  overflow:hidden;											/*Yönetici Panelinden taşma */
+}
+
+
+.kullanici-resmi {
+  float:left;
+  width:60px;
+  padding:9px;												/*Kullanıcı resmi konumu*/
+  margin-right:15px;										/*Kullanıcı resmi ile Kullanıcı bilgileri arasındaki boşluk*/
+  
+}
+
+
+.kullanici-resmi img {
+  height:55px;												/*Kullanıcı resmi boyutu*/
+  width:55px;
+}
+
+
+
+.kullanici-bilgi > span {
+  display:block;											/*Yönetici ve online alt alta yapma*/
+}	
+
+.kullanici-rol {
+  font-size:13px;											/*Yönetici yazı boyutu*/
+}
+
+.kullanici-durum {
+  font-size:11px;											/*Online yazı boyutu */
+  margin-top:2px;
+}
+
+.kullanici-durum i {
+  font-size:9px;
+  margin-right:2px;											/*Online daire ikonunun boyutu*/
+  color:#5cb85c;											/*Online daire ikonun rengi*/
+}
+
+
+
+.genel ul li a {
+  display:block;
+  padding:1px;												/*Grafik ve harita yazılarının konumu*/
+  margin:5px;
+}
+
+
+.genel ul li a i {
+  margin-right:15px;										/*Grafik ve harita yazılarını ikondan uzaklaştır*/
+  font-size:17px;											/*Grafik ve harita ikonlarının belirginliği*/
+  width:30px;
+  line-height:30px;							
+  text-align:center;										/*Grafik ve harita ikonlarının pozisyon düzenlemesi*/
+  border-radius:15px;										/*Grafik ve harita ikonunu yuvarlak yap*/
+}
+
+
+
+.kenar-menu-altbilgi {
+  position:absolute;
+  width:100%;												/*Alttaki ikonların divinin genişliği*/
+  bottom:0;                                                 /*Alttaki ikonların divinin aşağıya yapışması*/
+  display:flex;
+  height:25px;												/*Alttaki ikonların arka plan yüksekliği*/
+}
+
+.kenar-menu-altbilgi a {
+  flex-grow:1;												/*Alttaki ikonların eşit boşluklu olması*/
+  text-align:center;										/*Alttaki ikonların ortalanması*/
+ 
+  
+  
+}
+
+.kenar-menu {
+    background:#31353D;										/*Menünün arka plan rengi*/
+}
+
+
+.kenar-menu-yonetici,
+.genel {													/*Yönetici paneli ve genel panelin üst çizgileri*/
+    border-top:1px solid #3a3f48;
+}
+
+
+.kullanici-rol,												/*"Yönetici" yazı rengi*/
+.kullanici-durum,											/*"Online" yazı rengi*/
+.kenar-menu-logo a,											/*Karakol kuruluş yeri yazı rengi*/
+.genel ul li a,												/*Grafikler ve Haritalar yazı rengi*/					
+.kenar-menu-altbilgi a {									/*Alttaki ikonların rengi */
+    color:#818896;
+}
+
+
+.genel ul li a:hover,										/*Grafikler ve Haritalar yazısının hoverı*/
+.kullanici-bilgi,											/*"Erhan Hamzaoğulları" yazı rengi*/
+.kenar-menu-logo a:hover,									/*Yukarıdaki karakol kuruluş yeri hoverı*/
+.kenar-menu-altbilgi a:hover {								/*Alttaki ikonların hoverı*/
+    color:#b8bfce;
+}
+
+
+
+.kenar-menu ul li a:hover i {
+    color:#16c7ff;               						 	/*Grafik ve Harita ikonunun hoverı*/
+}
+
+
+.kenar-menu .genel ul li a i {
+    background:#3a3f48;										/*Grafikler ve Haritalar ikonlarının arka rengi */
+}
+
+
+
+
+
+.kenar-menu-altbilgi {
+    background:#3a3f48;										/*Alttaki düğmelerin arka rengi*/
+    border-top:1px solid #464a52;
+}
+
+#ana{
+	
+	height:625px;
+	width:1096px;
+	
+	margin-top:-25px;
+	margin-left:270px;
+	
+}
+
+#kutu1 {
+	
+	float: left;
+    margin-left:30px;
+	margin-top:100px;
+    height: 450px;
+    width: 500px;
+	
+	padding:20px;
+	
+		
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.41);
+	border-radius: 50px 50px 50px 50px;
+	
+}
+#kutu2 {
+	
+	float:left;
+	margin-left:30px;
+	margin-top:100px;
+	height: 450px;
+    width: 500px;
+	
+	padding:20px;
+	
+		
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.41);
+	border-radius: 50px 50px 50px 50px;
+}
+#form{
+	font-size: 10px;
+	height:150px;
+	width:200px;
+	position:absolute;
+	bottom:100px;
+	margin-left:30px;
+}
+#buton{
+	font-size:10px;
+	padding:5px 5px;
+	margin-left:3px;
+	
+	
+}
